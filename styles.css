@@ -1,2 +1,21 @@
 
 /* Your CSS Code here. */
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th,td{
+    border: 1px solid black;
+}
+
+thead{
+    background-color: brown;
+}
+
+tbody tr:first-child{
+    background-color: rgb(82, 27, 7);
+}
+
+tbody tr:last-child{
+    background-color: rgb(219, 161, 161);
+}
